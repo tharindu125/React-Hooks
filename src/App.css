@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+hr{
+    margin: 10px;
+}
+.main{
+    color: orange;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.m2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.m2 > h1{
+    margin: auto;
+    font-size: 40px;
+}
+
+.m3{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.m3 > button{
+    margin: auto;
+    font-size: 20px;
+    padding: 5px 20px;
+    background-color: rgb(211, 187, 233);
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: brown ;
+    color: white;
+}
+
+/*useEffect*/
+
+.main2{
+    margin: 40px 20px;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+.box-container {
+	display: flex;
+	justify-content: center;
+}
+
+.box {
+	width: 100px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 5px;
+	margin: 0 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+}
+
+.scary-text {
+	color: #af111c;
+	font-family: fantasy;
+}
+
+.animal-image {
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+    
+}
